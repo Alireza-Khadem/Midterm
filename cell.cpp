@@ -2,7 +2,7 @@
 #include<vector>
 #include "genome.h"
 using namespace std;
-//function baraye peida kardan palindrom
+//function baraye peida kardan palindorm
 string pal(string a){
     string temp1 = "",temp2 = "";
     for(int i = 0;i < a.length();i++){
