@@ -1,7 +1,7 @@
 #include <iostream>
 #include "cell.h"
 using namespace std;
-//function baraye ijad mokamel reshte
+//function baraye ijad mokamel reshteh
 //function baraye peyda kardan bozorgtarin zir reshte moshtarak(virus)
 string LCSubStr(string X, string Y){
     int m = X.length(),n = Y.length(),result = 0,end,len[2][n + 1],currRow = 0;
